@@ -1,6 +1,6 @@
-import tensorflow as tf
-from tensorflow.keras.preprocessing.text import Tokenizer
-from tensorflow.keras.preprocessing.sequence import pad_sequences
+import tensorflow as tf # deep learning framework we use to build the model
+from tensorflow.keras.preprocessing.text import Tokenizer # converts text into numbers
+from tensorflow.keras.preprocessing.sequence import pad_sequences # makes all sequences the same length 
 import numpy as np
 
 # =====================================================================
